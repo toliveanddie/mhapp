@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root 'welcome#index'
   get '/help', to: 'welcome#help'
   get '/about', to: 'welcome#about'
   get '/contact', to: 'welcome#contact'
@@ -8,6 +9,6 @@ Rails.application.routes.draw do
   post   '/login',   to: 'sessions#create'
   delete '/logout',  to: 'sessions#destroy'
   resources :users
+  resources :account_activations, only: [:edit]
 
-  root 'welcome#index'
 end
