@@ -1,0 +1,179 @@
+html, body{
+    background: #CFF;
+}
+
+.container{
+    width: 710px;
+}
+
+header{
+    width: 100%;
+    padding-top: 20px;
+}
+
+header img{
+    padding: 1em;
+    background: #FFF;
+}
+
+nav.navigation_panel{
+    /*position: relative;*/
+    /*top: 0px;*/
+    /*right: 0px;*/
+}
+
+section{
+    margin-top: 1em;
+    font-size: 120%;
+    padding: 20px;
+    background: #FFF;
+}
+
+section h1{
+    font-size: 200%;
+}
+
+/* LINKS */
+a{
+    color: #09C;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #069;
+    text-decoration: underline;
+}
+
+a:visited{
+    color: #069;
+}
+
+/* NAVIGATION */
+
+nav{
+    float:right;
+    position: relative;
+    top:0px;
+    background-color: #FFF;
+    padding: 0 0.7em;
+    white-space: nowrap;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 0.2em 0;
+}
+
+nav ul li a{
+    padding: 0 5px;
+    font-weight: bold;
+}
+
+nav ul li a:visited{
+    color: #09C;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+a.signup_button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    width: 190px;
+    color: #FFF;
+    background-color: #006400;
+    font-size: 150%;
+    font-weight: bold;
+    padding: 20px;
+}
+
+/* Round Corners */
+
+.round {
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+
+}
+
+/* Footer */
+
+footer{
+    text-align: center;
+    margin-top: 10px;
+    width: 710px;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer nav{
+    float: none;
+}
+
+/** User Show Page **/
+div.mainDiv{
+    width:100%;
+    display: table;
+}
+
+div.leftDiv{
+    width: 50%;
+    display: table-cell;
+    float: left;
+    vertical-align: middle;
+}
+
+div.rightDiv{
+    width: 30%;
+    display: table-cell;
+    padding: 1em;
+    vertical-align: top;
+    background-color: #FFC;
+}
+
+.profile img.gravatar{
+    border: 1px solid #999;
+}
+
+div.field div.action{
+
+}
+
+/** FORM LAYOUT **/
+div.form_table_div{
+    display: table;
+}
+
+div.form_table_row_div{
+    display: table-row;
+}
+
+div.form_table_cell_div{
+    display: table-cell;
+    padding-left: 10px;
+}
+
+.error_explanation{
+    color: darkred;
+    background-color: #FFC;
+}
+
+.padding_10{
+    padding: 10px;
+}
+
+ul.users {
+    margin-top: 1em;
+}
+
+ul.users li {
+    list-style: none;
+    }
