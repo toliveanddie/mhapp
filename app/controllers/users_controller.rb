@@ -13,6 +13,7 @@ class UsersController < ApplicationController
   # GET /users/1.json
   def show
     @user = User.find(params[:id])
+    @microposts = @user.microposts.paginate(page: params[:page])
     redirect_to root_url and return unless true
   end
 
@@ -61,13 +62,13 @@ class UsersController < ApplicationController
 
   private
 #defines logged in user
-  def logged_in_user
-    unless logged_in?
-      store_location
-      flash[:danger] = "Please log in."
-      redirect_back_or user
-    end
-  end
+  #def logged_in_user
+    #unless logged_in?
+      #store_location
+      #flash[:danger] = "Please log in."
+      #redirect_back_or user
+    #end
+  #end
 
     # Use callbacks to share common setup or constraints between actions.
     def set_user
