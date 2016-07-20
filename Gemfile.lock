@@ -40,7 +40,7 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     ansi (1.5.0)
-    arel (7.0.0)
+    arel (7.1.0)
     autoprefixer-rails (6.3.7)
       execjs
     bcrypt (3.1.11)
@@ -265,7 +265,7 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
-    puma (3.5.0)
+    puma (3.5.2)
     rack (2.0.1)
     rack-test (0.6.3)
       rack (>= 1.0)
