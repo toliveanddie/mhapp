@@ -245,7 +245,7 @@ GEM
     mini_magick (4.5.1)
     mini_portile2 (2.1.0)
     minitest (5.9.0)
-    minitest-reporters (1.1.10)
+    minitest-reporters (1.1.11)
       ansi
       builder
       minitest (>= 5.0)
@@ -331,7 +331,7 @@ GEM
     thread_safe (0.3.5)
     tilt (2.0.5)
     trollop (2.1.2)
-    turbolinks (5.0.0)
+    turbolinks (5.0.1)
       turbolinks-source (~> 5)
     turbolinks-source (5.0.0)
     tzinfo (1.2.2)
