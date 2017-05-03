@@ -1,3 +1,3 @@
 
 
-using this Rails app as reference for other projects
+this is the michael Hartl rails tutorial app that I use for reference purposes.
